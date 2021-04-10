@@ -1,5 +1,5 @@
 " This is the default extra key bindings
-set rtp+=~/.vim_runtime/fzf.exe  " 注意更新fzf版本号！ 当前版本0.25 "
+"set rtp+=~/.vim_runtime/fzf.exe  " 注意更新fzf版本号！ 当前版本0.25 "
 " https://github.com/junegunn/fzf/releases 
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',

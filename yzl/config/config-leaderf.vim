@@ -13,7 +13,7 @@ let g:Lf_WindowPosition = 'popup'
 nmap <C-F> :Leaderf file<cr>
 nmap <F1> :Leaderf mru<cr>
 noremap <F2> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
-noremap <C-S> :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
+noremap <F4> :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
 nmap <F7> :Leaderf function<cr>
 nmap <F9> :Leaderf marks<cr>
 nmap <F10> :Leaderf buffer<cr>
