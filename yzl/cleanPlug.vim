@@ -253,6 +253,8 @@ Plug 'freitass/todo.txt-vim'
 "Plug 'lukerandall/haskellmode-vim'
 Plug 'vim-perl/vim-perl'
 Plug 'WolfgangMehner/vim-plugins'
+"Plug 'WolfgangMehner/matlab-support'
+"Plug 'WolfgangMehner/python-support'
 "Plug 'artur-shaik/vim-javacomplete2'
 "Plug 'kovisoft/slimv'
 "Plug 'adimit/prolog.vim'
@@ -273,6 +275,10 @@ Plug 'vimwiki/vimwiki'
 "Plug 'tpope/vim-fireplace'
 Plug 'w0rp/ale'
 
+"nginx
+Plug 'chr4/nginx.vim'
+"docker
+Plug 'ekalinin/Dockerfile.vim'
 "Plug 'maxbrunsfeld/vim-yankstack'
 
 "" language specified end----------------------------------------------------------"
