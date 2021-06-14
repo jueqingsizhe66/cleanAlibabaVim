@@ -24,7 +24,8 @@ git add .
 ## $1 提交信息
 echo "Please input commit message\n"
 git commit -m $1
-git push origin master --force
+echo $1
+git push origin master
 
 if [ "$?" = "0"  ]
 then

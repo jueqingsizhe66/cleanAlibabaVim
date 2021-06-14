@@ -20,6 +20,7 @@ nmap <F10> :Leaderf buffer<cr>
 
 "buffer mru bugTag 
 let g:Lf_ShortcutF = "<leader>ff"
+nnoremap <Leader>y :<C-u>call gitblame#echo()<CR>
 
 noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>

@@ -13,8 +13,6 @@ vim for linux version
 ```
 
 
-
-
 1. 修改F4为`C-s`快捷键，查看当前buffer的字符
 2. fzf(`Ctrl+x Ctrl-j`补全路径！ )+leaderf(`Ctrl+F`  `F4 F9  F19 ` 真是神器组合
     1. 安装fzf(bash目录下Ctrl+T 很好用！) apt-get in、leaderf(vim-plug安装即可)安装
@@ -29,6 +27,9 @@ vim for linux version
     10. `apt-get install ripgrep` 
 3. leaderf的`F10`和bufferBrowser的`,o`类似
 4. Bash-support等多种vimsupport，想看`config-language.vim`,跟进[bash-support][2]
+5. `,r` 添加标准，类似symbol-overlay-put `C-c u h` in  emacs.  `,m` 增加当前单词标注 `,n`下一个  `,p` 上一个
+6. git-blame可以查看当前文档的所有变化，进一步观察每行变换，选用git-blame.vim
+7. `:Map` 查看所有map 已结合fzf方式 ，请查看`config-fzf.vim`
 
 
 [1]: https://github.com/jueqingsizhe66/cleanWindVim
