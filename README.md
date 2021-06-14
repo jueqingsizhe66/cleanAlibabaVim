@@ -30,6 +30,7 @@ vim for linux version
 5. `,r` 添加标准，类似symbol-overlay-put `C-c u h` in  emacs.  `,m` 增加当前单词标注 `,n`下一个  `,p` 上一个
 6. git-blame可以查看当前文档的所有变化，进一步观察每行变换，选用git-blame.vim
 7. `:Map` 查看所有map 已结合fzf方式 ，请查看`config-fzf.vim`
+8. `bash gitpush.sh "增加....信息 删除什么信息 改进什么信息"`
 
 
 [1]: https://github.com/jueqingsizhe66/cleanWindVim
